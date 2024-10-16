@@ -1,47 +1,27 @@
-.chat-widget-container {
-    background-color: #000000;
-    color: #ffffff;
-    font-family: 'Roboto', Arial, sans-serif;
-  }
-  
-  .chat-widget-form {
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .chat-widget-form input[type="text"],
-  .chat-widget-form input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    font-family: 'Roboto', Arial, sans-serif;
-  }
-  
-  .chat-widget-form input[type="text"]::placeholder,
-  .chat-widget-form input[type="email"]::placeholder {
-    color: #cccccc;
-  }
-  
-  .chat-widget-form label,
-  .chat-widget-form p {
-    color: #cccccc;
-  }
-  
-  .chat-widget-form button {
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px 20px;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: 'Roboto', Arial, sans-serif;
-  }
-  
-  .chat-widget-form button:hover {
-    background-color: #e6e6e6;
-  }
-  
+/* Brand Color Styles */
+.chat-widget-brand {
+  background-color: #000000; /* Brand color set to black */
+  color: #ffffff; /* White text for contrast */
+}
+
+/* Conversation Color Styles */
+.chat-widget-conversation {
+  background-color: #0099ff; /* Conversation color set to bright blue */
+  color: #ffffff; /* White text for chat messages for better readability */
+}
+
+/* Action Color Styles */
+.chat-widget-action-button {
+  background-color: #0099ff; /* Action button color set to bright blue */
+  border: none;
+  color: #ffffff; /* White text for action buttons */
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover Effect for Action Buttons */
+.chat-widget-action-button:hover {
+  background-color: #007acc; /* Darker blue on hover */
+}
