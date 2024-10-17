@@ -1,27 +1,5 @@
 /* Brand Color Styles */
 .chat-widget-brand {
-  background-color: #000000; /* Brand color set to black */
-  color: #ffffff; /* White text for contrast */
-}
+  background-color: #000000; 
+  color: #ffffff; 
 
-/* Conversation Color Styles */
-.chat-widget-conversation {
-  background-color: #0099ff; /* Conversation color set to bright blue */
-  color: #ffffff; /* White text for chat messages for better readability */
-}
-
-/* Action Color Styles */
-.chat-widget-action-button {
-  background-color: #0099ff; /* Action button color set to bright blue */
-  border: none;
-  color: #ffffff; /* White text for action buttons */
-  padding: 10px 15px;
-  font-weight: bold;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Hover Effect for Action Buttons */
-.chat-widget-action-button:hover {
-  background-color: #007acc; /* Darker blue on hover */
-}
