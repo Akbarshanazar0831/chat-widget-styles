@@ -1,6 +1,11 @@
-/* Brand Color Styles */
-.chat-widget-brand {
-  background-color: #000000; 
-  color: #ffffff; 
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+.f9ChatMinimizedButton {
+    @apply fixed bottom-5 right-5 w-22 h-22 overflow-hidden;
+  }
+  .f9ChatWidget {
+    @apply fixed right-3.5 bottom-5 z-[10006] mb-[-1px] border-none;
+  }
+  
